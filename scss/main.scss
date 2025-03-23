@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none
+}
+h1,h2,h3,h4,h5, ul, li, p,body{
+    margin: 0;
+    padding: 0;
+}
+
+
+@import "./utils/container";
+@import "./layouts/team";
