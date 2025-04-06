@@ -28,11 +28,13 @@ color: #fff;
 
 }
 .header-list{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    color: #fff;
+    display: none;
+      @media (min-width:768px){
+        display: flex;
+justify-content: center;
+align-items: center;
+gap: 5px;
+    }
 }
 .header-link{
     font-family: "Montserrat",sans-serif;
@@ -46,4 +48,19 @@ border-radius: 30px;
 .header-link:hover{
     border-color: 2px #fff;
 
+}
+.mob-open{
+      @media (min-width:768px){
+        display: none;
+    }
+}
+/* mobile menu*/
+.menu{
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1;
+width: 100vw;
+height: 100vh;
+background-color: pink;
 }
