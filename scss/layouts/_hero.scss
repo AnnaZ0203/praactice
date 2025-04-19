@@ -1,7 +1,10 @@
 .hero{
     padding-top: 214px;
-    padding-bottom: 138px;
+    padding-bottom: 246px;
     background-image: url(../../img/Vector\ Smart\ Object\ 1.png);
+    @media (min-device-pixel-ratio:2),(min-resolution:192dpi), (min-resolution:2dppx){
+        background-image: url(../../img/Group2@2x.png);
+    }
     text-align: center;
     color: #fff;
     background-repeat: no-repeat;
